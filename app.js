@@ -53,7 +53,7 @@
         case 5:
         case 33:
         case 34:
-          weatherIcon.src = "/img/001-sunny.svg";
+          weatherIcon.src = "/img/001-sunny.png";
           break;
         case 6:
         case 7:
@@ -63,7 +63,7 @@
         case 36:
         case 37:
         case 38:
-          weatherIcon.src = "/img/002-cloudy.svg";
+          weatherIcon.src = "/img/002-cloudy.png";
           break;
 
         case 12:
@@ -75,27 +75,27 @@
         case 18:
         case 39:
         case 40:
-          weatherIcon.src = "/img/003-rain.svg";
+          weatherIcon.src = "/img/003-rain.png";
           break;
         case 19:
         case 20:
         case 21:
         case 22:
         case 23:
-          weatherIcon.src = "/img/008-snow.svg";
+          weatherIcon.src = "/img/008-snow.png";
           break;
         case 38:
-          weatherIcon.src = "/img/007-thunder.svg";
+          weatherIcon.src = "/img/007-thunder.png";
           break;
 
         case 41:
         case 42:
-          weatherIcon.src = "/img/006-storm.svg";
+          weatherIcon.src = "/img/006-storm.png";
 
         case 24:
         case 25:
         case 26:
-          weatherIcon.src = "img/049-cold.svg";
+          weatherIcon.src = "img/049-cold.png";
       }
     });
   }
