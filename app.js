@@ -16,7 +16,7 @@ function work () {
   document.getElementById("dropdown").addEventListener("change", fetchAndWrite);
 
   function fetchApiData() {
-    const url = `http://dataservice.accuweather.com/currentconditions/v1/${dropdown.value}?apikey=LYqmDfLCYlqWK2s9W1FZF4H4VIJYiG8P&details=true`;
+    const url = `https://dataservice.accuweather.com/currentconditions/v1/${dropdown.value}?apikey=LYqmDfLCYlqWK2s9W1FZF4H4VIJYiG8P&details=true`;
     return (
       fetch(url)
         .then(response => {
