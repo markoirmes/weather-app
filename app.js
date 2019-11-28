@@ -1,4 +1,4 @@
-function work () {
+(function() {
   const tempText = document.getElementById("tempText");
   const feelText = document.getElementById("feelText");
   const pressure = document.getElementById("pressure");
@@ -53,7 +53,7 @@ function work () {
         case 5:
         case 33:
         case 34:
-          weatherIcon.src = "/img/001-sunny.png";
+          weatherIcon.src = "img/001-sunny.png";
           break;
         case 6:
         case 7:
@@ -63,7 +63,7 @@ function work () {
         case 36:
         case 37:
         case 38:
-          weatherIcon.src = "/img/002-cloudy.png";
+          weatherIcon.src = "img/002-cloudy.png";
           break;
 
         case 12:
@@ -75,22 +75,22 @@ function work () {
         case 18:
         case 39:
         case 40:
-          weatherIcon.src = "/img/003-rain.png";
+          weatherIcon.src = "img/003-rain.png";
           break;
         case 19:
         case 20:
         case 21:
         case 22:
         case 23:
-          weatherIcon.src = "/img/008-snow.png";
+          weatherIcon.src = "img/008-snow.png";
           break;
         case 38:
-          weatherIcon.src = "/img/007-thunder.png";
+          weatherIcon.src = "img/007-thunder.png";
           break;
 
         case 41:
         case 42:
-          weatherIcon.src = "/img/006-storm.png";
+          weatherIcon.src = "img/006-storm.png";
 
         case 24:
         case 25:
@@ -99,9 +99,4 @@ function work () {
       }
     });
   }
-};
-
-
-
-window.onload = work();
-
+})();
