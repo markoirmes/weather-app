@@ -42,7 +42,8 @@
       visibility.innerHTML = `Visibility: ${data[0].Visibility.Metric.Value}km`;
       windSpeed.innerHTML = `Wind Speed: ${data[0].Wind.Speed.Metric.Value}km/h`;
       windDirection.innerHTML = `Wind Direction: ${data[0].Wind.Direction.English}`;
-      windIcon.style.transform = `rotate(${data[0].Wind.Direction.Degrees+180}deg)`;
+      windIcon.style.transform = `rotate(${data[0].Wind.Direction.Degrees +
+        180}deg)`;
 
       const icon = data[0].WeatherIcon;
       switch (icon) {
@@ -65,7 +66,6 @@
         case 38:
           weatherIcon.src = "img/002-cloudy.png";
           break;
-
         case 12:
         case 13:
         case 14:
