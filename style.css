@@ -40,6 +40,7 @@ body {
 }
 
 .card {
+  width:220px;
   text-align:center;
   background: white;
   padding: 20px;
