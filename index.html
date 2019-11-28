@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="container dropdown">
+        <select id="dropdown">
+          <option value="301401">Sombor</option>
+          <option value="300463">Subotica</option>
+        </select>
+      </div>
+      <div class="container cards">
+        <div class="card one">
+          <img
+            id="weatherIcon"
+            src="/img/001-sunny.svg"
+            width="150"
+            height="150"
+          /><br />
+          <p id="tempText"></p>
+          <p id="feelText"></p>
+        </div>
+        <div class="card two">
+          <div class="imgRotate">
+            <img
+              id="windIcon"
+              src="/img/navigation-compass.svg"
+              width="150"
+              height="150"
+            />
+          </div>
+          <p id="windSpeed"></p>
+          <p id="windAngle"></p>
+          <p id="windDirection"></p>
+        </div>
+        <div class="card three">
+          <div class="imgCenter">
+            <img src="/img/information.svg" width="50" height="50" />
+          </div>
+
+          <p id="humidity"></p>
+          <p id="pressure"></p>
+          <p id="uvIndex"></p>
+          <p id="visibility"></p>
+          <p id="clouds"></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container footer">
+        <p>
+          Made with
+          <a href="https://accuweather.com" target="_blank" rel="nofollow"
+            ><img src="/img/awlogo.png" height="20" id="awlogo"
+          /></a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

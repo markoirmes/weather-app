@@ -1,0 +1,66 @@
+html,
+body {
+  height: 98%;
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  font-size:16px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.container.dropdown{
+    height:10%;
+    margin-bottom:20px;
+}
+
+.container.cards {
+    height:80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 50px;
+  -webkit-box-shadow: 0px 0px 30px 10px rgba(219, 219, 219, 1);
+  -moz-box-shadow: 0px 0px 30px 10px rgba(219, 219, 219, 1);
+  box-shadow: 0px 0px 30px 10px rgba(219, 219, 219, 1);
+  border-radius: 30px;
+  height: 220px;
+}
+
+.imgCenter {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+    height:10%
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+#awlogo {
+    margin-bottom:-4px;
+}
