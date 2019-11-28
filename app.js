@@ -1,4 +1,4 @@
-(function() {
+function work () {
   const tempText = document.getElementById("tempText");
   const feelText = document.getElementById("feelText");
   const pressure = document.getElementById("pressure");
@@ -99,4 +99,9 @@
       }
     });
   }
-})();
+};
+
+
+
+window.onload = work();
+
